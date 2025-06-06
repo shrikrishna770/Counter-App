@@ -23,10 +23,10 @@ const App = () => {
           <h3 className="text-xl font-semibold">{value}</h3>
         </div>
         <div className="flex items-center justify-center gap-3 mt-2">
-          <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-all duration-200" onClick={valueDecrease}>
+          <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-all duration-200 cursor-pointer" onClick={valueDecrease}>
             Decrease
           </button>
-          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-all duration-200" onClick={valueIncrease}>
+          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-all duration-200 cursor-pointer" onClick={valueIncrease}>
             Increase
           </button>
         </div>
