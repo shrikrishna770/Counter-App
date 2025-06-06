@@ -4,7 +4,7 @@ const App = () => {
 
   const [value, setValue] = useState(10)
   const valueDecrease = () => {
-    if (value) {
+    if (value>0) {
       setValue(value - 1)
     }
   }
